@@ -15,13 +15,14 @@
 		6973909918C447A200E606F0 /* BootesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6973909818C447A200E606F0 /* BootesAppDelegate.m */; };
 		6973909C18C447A200E606F0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6973909A18C447A200E606F0 /* Main_iPhone.storyboard */; };
 		6973909F18C447A200E606F0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6973909D18C447A200E606F0 /* Main_iPad.storyboard */; };
-		697390A218C447A200E606F0 /* BootesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697390A118C447A200E606F0 /* BootesViewController.m */; };
 		697390A418C447A200E606F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697390A318C447A200E606F0 /* Images.xcassets */; };
 		697390AB18C447A200E606F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 697390AA18C447A200E606F0 /* XCTest.framework */; };
 		697390AC18C447A200E606F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6973908818C447A200E606F0 /* Foundation.framework */; };
 		697390AD18C447A300E606F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6973908C18C447A200E606F0 /* UIKit.framework */; };
 		697390B518C447A300E606F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 697390B318C447A300E606F0 /* InfoPlist.strings */; };
 		697390B718C447A300E606F0 /* CoffretShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 697390B618C447A300E606F0 /* CoffretShowTests.m */; };
+		6979B48718C449E5006D15E2 /* Bootes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6979B48518C449E5006D15E2 /* Bootes.xcdatamodeld */; };
+		69BACC6B18C44B0C00C21E99 /* BootesLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BACC6A18C44B0C00C21E99 /* BootesLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +48,15 @@
 		6973909818C447A200E606F0 /* BootesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BootesAppDelegate.m; sourceTree = "<group>"; };
 		6973909B18C447A200E606F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		6973909E18C447A200E606F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		697390A018C447A200E606F0 /* BootesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BootesViewController.h; sourceTree = "<group>"; };
-		697390A118C447A200E606F0 /* BootesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BootesViewController.m; sourceTree = "<group>"; };
 		697390A318C447A200E606F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		697390A918C447A200E606F0 /* CoffretShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffretShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		697390AA18C447A200E606F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		697390B218C447A300E606F0 /* CoffretShowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoffretShowTests-Info.plist"; sourceTree = "<group>"; };
 		697390B418C447A300E606F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		697390B618C447A300E606F0 /* CoffretShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffretShowTests.m; sourceTree = "<group>"; };
+		6979B48618C449E5006D15E2 /* Bootes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bootes.xcdatamodel; sourceTree = "<group>"; };
+		69BACC6918C44B0C00C21E99 /* BootesLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootesLoginViewController.h; sourceTree = "<group>"; };
+		69BACC6A18C44B0C00C21E99 /* BootesLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootesLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +116,11 @@
 		6973908E18C447A200E606F0 /* CoffretShow */ = {
 			isa = PBXGroup;
 			children = (
+				6979B48418C449CC006D15E2 /* view */,
+				6979B48318C44990006D15E2 /* controller */,
+				6979B48218C44989006D15E2 /* model */,
 				6973909718C447A200E606F0 /* BootesAppDelegate.h */,
 				6973909818C447A200E606F0 /* BootesAppDelegate.m */,
-				6973909A18C447A200E606F0 /* Main_iPhone.storyboard */,
-				6973909D18C447A200E606F0 /* Main_iPad.storyboard */,
-				697390A018C447A200E606F0 /* BootesViewController.h */,
-				697390A118C447A200E606F0 /* BootesViewController.m */,
 				697390A318C447A200E606F0 /* Images.xcassets */,
 				6973908F18C447A200E606F0 /* Supporting Files */,
 			);
@@ -153,6 +154,34 @@
 				697390B318C447A300E606F0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6979B48218C44989006D15E2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6979B48518C449E5006D15E2 /* Bootes.xcdatamodeld */,
+			);
+			name = model;
+			path = CoffretShow/model;
+			sourceTree = SOURCE_ROOT;
+		};
+		6979B48318C44990006D15E2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				69BACC6918C44B0C00C21E99 /* BootesLoginViewController.h */,
+				69BACC6A18C44B0C00C21E99 /* BootesLoginViewController.m */,
+			);
+			name = controller;
+			path = CoffretShow/controller;
+			sourceTree = SOURCE_ROOT;
+		};
+		6979B48418C449CC006D15E2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6973909A18C447A200E606F0 /* Main_iPhone.storyboard */,
+				6973909D18C447A200E606F0 /* Main_iPad.storyboard */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				697390A218C447A200E606F0 /* BootesViewController.m in Sources */,
 				6973909918C447A200E606F0 /* BootesAppDelegate.m in Sources */,
 				6973909518C447A200E606F0 /* main.m in Sources */,
+				69BACC6B18C44B0C00C21E99 /* BootesLoginViewController.m in Sources */,
+				6979B48718C449E5006D15E2 /* Bootes.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +507,7 @@
 				697390BC18C447A300E606F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		697390BD18C447A300E606F0 /* Build configuration list for PBXNativeTarget "CoffretShowTests" */ = {
 			isa = XCConfigurationList;
@@ -485,8 +516,22 @@
 				697390BF18C447A300E606F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6979B48518C449E5006D15E2 /* Bootes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6979B48618C449E5006D15E2 /* Bootes.xcdatamodel */,
+			);
+			currentVersion = 6979B48618C449E5006D15E2 /* Bootes.xcdatamodel */;
+			path = Bootes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6973907D18C447A200E606F0 /* Project object */;
 }
