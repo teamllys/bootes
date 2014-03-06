@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6944C02918C8281A00B05A70 /* BootesSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6944C02818C8281A00B05A70 /* BootesSignupViewController.m */; };
+		6944C02F18C8288E00B05A70 /* BootesCoffretListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6944C02E18C8288E00B05A70 /* BootesCoffretListViewController.m */; };
+		6944C03218C828B100B05A70 /* BootesItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6944C03118C828B100B05A70 /* BootesItemListViewController.m */; };
+		6944C03518C828F300B05A70 /* BootesItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6944C03418C828F300B05A70 /* BootesItemDetailViewController.m */; };
+		6944C03B18C82D0600B05A70 /* BootesCoffretInforViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6944C03A18C82D0600B05A70 /* BootesCoffretInforViewController.m */; };
 		6973908918C447A200E606F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6973908818C447A200E606F0 /* Foundation.framework */; };
 		6973908B18C447A200E606F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6973908A18C447A200E606F0 /* CoreGraphics.framework */; };
 		6973908D18C447A200E606F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6973908C18C447A200E606F0 /* UIKit.framework */; };
@@ -36,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6944C02718C8281A00B05A70 /* BootesSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootesSignupViewController.h; sourceTree = "<group>"; };
+		6944C02818C8281A00B05A70 /* BootesSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootesSignupViewController.m; sourceTree = "<group>"; };
+		6944C02D18C8288E00B05A70 /* BootesCoffretListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootesCoffretListViewController.h; sourceTree = "<group>"; };
+		6944C02E18C8288E00B05A70 /* BootesCoffretListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootesCoffretListViewController.m; sourceTree = "<group>"; };
+		6944C03018C828B100B05A70 /* BootesItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootesItemListViewController.h; sourceTree = "<group>"; };
+		6944C03118C828B100B05A70 /* BootesItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootesItemListViewController.m; sourceTree = "<group>"; };
+		6944C03318C828F300B05A70 /* BootesItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootesItemDetailViewController.h; sourceTree = "<group>"; };
+		6944C03418C828F300B05A70 /* BootesItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootesItemDetailViewController.m; sourceTree = "<group>"; };
+		6944C03918C82D0600B05A70 /* BootesCoffretInforViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootesCoffretInforViewController.h; sourceTree = "<group>"; };
+		6944C03A18C82D0600B05A70 /* BootesCoffretInforViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootesCoffretInforViewController.m; sourceTree = "<group>"; };
 		6973908518C447A200E606F0 /* CoffretShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffretShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6973908818C447A200E606F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6973908A18C447A200E606F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -170,6 +185,16 @@
 			children = (
 				69BACC6918C44B0C00C21E99 /* BootesLoginViewController.h */,
 				69BACC6A18C44B0C00C21E99 /* BootesLoginViewController.m */,
+				6944C02718C8281A00B05A70 /* BootesSignupViewController.h */,
+				6944C02818C8281A00B05A70 /* BootesSignupViewController.m */,
+				6944C02D18C8288E00B05A70 /* BootesCoffretListViewController.h */,
+				6944C02E18C8288E00B05A70 /* BootesCoffretListViewController.m */,
+				6944C03018C828B100B05A70 /* BootesItemListViewController.h */,
+				6944C03118C828B100B05A70 /* BootesItemListViewController.m */,
+				6944C03318C828F300B05A70 /* BootesItemDetailViewController.h */,
+				6944C03418C828F300B05A70 /* BootesItemDetailViewController.m */,
+				6944C03918C82D0600B05A70 /* BootesCoffretInforViewController.h */,
+				6944C03A18C82D0600B05A70 /* BootesCoffretInforViewController.m */,
 			);
 			name = controller;
 			path = CoffretShow/controller;
@@ -283,10 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6944C03B18C82D0600B05A70 /* BootesCoffretInforViewController.m in Sources */,
+				6944C03518C828F300B05A70 /* BootesItemDetailViewController.m in Sources */,
 				6973909918C447A200E606F0 /* BootesAppDelegate.m in Sources */,
+				6944C03218C828B100B05A70 /* BootesItemListViewController.m in Sources */,
 				6973909518C447A200E606F0 /* main.m in Sources */,
+				6944C02F18C8288E00B05A70 /* BootesCoffretListViewController.m in Sources */,
 				69BACC6B18C44B0C00C21E99 /* BootesLoginViewController.m in Sources */,
 				6979B48718C449E5006D15E2 /* Bootes.xcdatamodeld in Sources */,
+				6944C02918C8281A00B05A70 /* BootesSignupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: CHANGHAO YIN (PGAKVRK79K)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoffretShow/CoffretShow-Prefix.pch";
 				INFOPLIST_FILE = "CoffretShow/CoffretShow-Info.plist";
